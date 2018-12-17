@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'sh \'echo Build\''
+        sh 'echo Build'
         input 'Continue?'
       }
     }
